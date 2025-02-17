@@ -2,6 +2,6 @@ global:
   scrape_interval: 15s  # How often to scrape targets
 
 scrape_configs:
-  - job_name: "prometheus"
+  - job_name: "Prometheus"
     static_configs:
       - targets: ["localhost:9090"]
